@@ -1,0 +1,45 @@
+body{
+    margin: 0px;
+}
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+hi{
+     text-align: center;
+}
+.navbar ul{
+    list-style-type:  none;
+    background-color: rgb(40, 37, 37);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: rgb(50, 47, 47);
+}
+.navbar li{
+    float: left;
+}
+.grid-container {
+  display: grid;
+  place-items: center; /* Centers both horizontally and vertically */
+  min-height: 5vh;   /* Optional: takes full screen height to center on entire page */
+}
+.grid-container2 {
+  display: grid;
+  place-items: center; /* Centers both horizontally and vertically */
+  min-height: 5vh;   /* Optional: takes full screen height to center on entire page */
+}
+.grid-container3 {
+  display: grid;
+  place-items: center; /* Centers both horizontally and vertically */
+  min-height: 5vh;   /* Optional: takes full screen height to center on entire page */
+}
